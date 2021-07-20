@@ -37,7 +37,7 @@ The first exoplanet was discovered in 1989, but not confirmed until 1992. Since 
 
 ![Timeline of all exoplanet discoveries](images/discoveries_over_time_kepler_wb.png)
 
-We have many Earth-based telescopes that discover exoplanets. However, space-based telescopes that don't have to deal with any of the challenges imposed by Earth's atmosphere are by far the most productive method of discovery.
+We have many Earth-based telescopes that discover exoplanets. However, space-based telescopes that don't have to deal with any of the challenges imposed by Earth's atmosphere are by far the most productive method of discovery. TESS (#6 as of this analysis) is the official successor of Kepler.
 
 ![Comparison of prolific facilities](images/prolific_facilities.png)
 
