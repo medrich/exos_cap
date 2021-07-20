@@ -23,10 +23,6 @@ For this analysis, I worked with a customized version of <a href="https://exopla
 
 My raw data arrived in 89 columns. Based on the questions I sought to explore, I determined that I only needed 21 of those. I selected for columns that gave me insight on the methods and timeline of discovery, and basic metrics about the exoplanets themselves (such as mass, temperature, radius, and galactic position).
 
-#### Prudent Context:
-
-To date, we have confirmed the discovery of 4,434 exoplanets, with thousands more discoveries awaiting confirmation. 2,012 of these have masses in excess of 10 Earth masses (the largest known being **239,000 times the mass of the Earth!**). <a href="https://www.universetoday.com/13757/how-big-do-planets-get/" target="_blank">People smarter than me have suggested that the upper bound for "Earth-like" (aka rocky) planets occurs at roughly 2 Earth Radii, or 5-10 Earth Masses</a>. As I am ultimately interested in investigating how conditions on Earth compare to conditions observed elsewhere, I have chosen to limit my data to those exoplanets with masses up to 10 times that of the Earth.
-
 ***Let's Begin!***
 ***
 
@@ -60,6 +56,10 @@ Fascinatingly, the combined counts of all discoveries represented by the above c
 
 ***
 ### What Do We Know About Exoplanets?
+
+#### Prudent Context:
+
+To date, we have confirmed the discovery of 4,434 exoplanets, with thousands more discoveries awaiting confirmation. 2,012 of these have masses in excess of 10 Earth masses (the largest known being **239,000 times the mass of the Earth!**). <a href="https://www.universetoday.com/13757/how-big-do-planets-get/" target="_blank">People smarter than me have suggested that the upper bound for "Earth-like" (aka rocky) planets occurs at roughly 2 Earth Radii, or 5-10 Earth Masses</a>. As I am ultimately interested in investigating how conditions on Earth compare to conditions observed elsewhere, I have chosen to limit my data to those exoplanets with masses up to 10 times that of the Earth from here on.
 ***
 
 
