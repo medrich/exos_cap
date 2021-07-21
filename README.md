@@ -1,6 +1,8 @@
 *** 
 ## Dust In The Wind
-#### An Analysis Of Exoplanets Discovered As Of July 2021, by Matt Edrich 
+#### An Analysis Of Exoplanets Discovered As Of July 2021, by Matt Edrich
+
+![You are here!](images/youarehere.jpg)
 ***
 
 ***
@@ -60,14 +62,6 @@ The launch of Kepler has had a huge impact on our rate and process of discoverin
 
 ![Count of all exoplanet discovery methods](images/discoveries_over_time_by_method_keple_wb.png)
 
-#### - ***'Runner Up' Methods Of Discovery***
-
-Given that 3,349 exoplanets have been discovered by Transit, and a further 870 discovered by Radial Velocity, let's remove these extremes and see how the rest of the data compares. 
-* With the dominance of Kepler's methods, it seems unlikely that these styles of discovery will be seriously developed in the future.
-* Fascinatingly, the combined counts of all discoveries represented by the above chart represent less than 5% of all exoplanet discoveries. 
-
-![Count of all exoplanet discovery methods without transit or radial velocity](images/discoveries_without_mains_wb.png)
-
 ***
 
 ***
@@ -86,13 +80,13 @@ To date, we have confirmed the discovery of 4,434 exoplanets, with thousands mor
 
 ![Galactic Placement of Exoplanet Systems](images/exos_in_space_wb.png)
 
-#### - ***Comparison Of Planetary Metrics***
+#### - ***Comparison Of Basic Planetary Metrics***
 
 In the following three scatterplots, Earth is represented by a teal dot.
 
 ![Mass v radius](images/mass_v_size_wb.png)
 
-* There is a strong correlation between mass and radius (I was not expecting this).
+* There is a strong correlation between mass and radius (I was not expecting this!).
 
 ![Mass v temperature](images/mass_v_temp_wb.png)
 
@@ -102,6 +96,53 @@ In the following three scatterplots, Earth is represented by a teal dot.
 
 * Likewise, there is no significant correlation between radius and temperature.
 
+### - ***Testing Hypotheses***
+
+* Ho: For a given metric (mass, temperature, or radius), Earth's mean will be the population mean.
+* Ha: For a given metric (mass, temperature, or radius), Earth's mean will differ from the population mean.
+
+![95% CI of Exo Masses](images/mass_95ci.png)
+
+* Here, the x-axis is in terms of **Earth masses**: obviously Earth's mass measured in Earth masses is one! It doesn't even come close to the average.
+* Lower, upper bounds of 95% CI: (4.48 EM, 4.68 EM)
+
+![95% CI of Exo Temp](images/temp_95ci.png)
+
+* Here, the x-axis is in **degrees Kelvin**; Earth's equilibrium temperature is 288K.
+* Lower, upper bounds of 95% CI: (828.01 K, 859.03 K)
+
+![95% CI of Exo Masses](images/radius_95ci.png)
+
+* Here, the x-axis is in **Earth radii**; Earth's radius is such units is 1.
+* Lower, upper bounds of 95% CI: (1.96 ER, 2.05 ER)
+
+**Considering how far away Earth's metrics are from the true population means in each case, I saw no need to use p-values or graphics to underline this point:** ***Earth is very special, and quite unique amongst rocky planets!***
+
+...but I do want to highlight how lucky we are to live here.
+
+![Masses vs. Temperatures, with Water added](images/mass_v_temp_with_watermarks_wb.png)
+
+* This is the same chart as seen earlier, comparing the masses of exoplanets to their temperatures.
+* However, I have highlighted the temperature region in which liquid water can exist, and immediately we can see how few planets in our already-limited view fulfill this vital criterion for life as we know it!
+
+![Earthrise](images/earthrise.jpg)
+
+***
+
+***
+### Bonus Material!
+
+#### - ***'Runner Up' Methods Of Discovery***
+
+Given that 3,349 exoplanets have been discovered by Transit, and a further 870 discovered by Radial Velocity, let's remove these extremes and see how the rest of the data compares. 
+* With the dominance of Kepler's methods, it seems unlikely that these styles of discovery will be seriously developed in the future.
+* Fascinatingly, the combined counts of all discoveries represented by the above chart represent less than 5% of all exoplanet discoveries. 
+
+![Count of all exoplanet discovery methods without transit or radial velocity](images/discoveries_without_mains_wb.png)
+
+#### - ***Solar Systems Like Ours, Tattooines, And Places Even Weirder***
+
+![star_counts](images/num_stars_in_system.png)
 ***
 
 
