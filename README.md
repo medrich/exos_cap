@@ -79,8 +79,8 @@ In the following three scatterplots, Earth is represented by a teal dot.
 
 ![Mass v radius](images/rocky_mass_v_rad_scatter.png)
 
-* The density of .
-* 
+* The density of **rocky** planets follows a strong linear correlation.
+* How would this change if we included gas giants, and ice planets?
 
 ![Mass v temperature](images/rocky_mass_v_temp_scatter.png)
 
