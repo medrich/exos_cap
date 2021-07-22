@@ -36,7 +36,7 @@ My raw data arrived in 89 columns. Based on the questions I sought to explore, I
 * Since then, we have steadily discovered more and more exoplanets per year with a major peak occurring in 2016. 
 * The 2009 launch of the Kepler Space Telescope (retired as of 2018), a spacecraft designed and launched specifically for exoplanet "hunting", had a massive impact on how we discover exoplanets. It's March 7, 2009 launch is marked by the vertical black line in the chart below.
 
-![Timeline of all exoplanet discoveries](images/discoveries_over_time_kepler_wb.png)
+![Timeline of all exoplanet discoveries](images/discoveries_over_time.png)
 
 #### - ***Prolific Discovery Facilities***
 
@@ -49,18 +49,11 @@ My raw data arrived in 89 columns. Based on the questions I sought to explore, I
 
 #### - ***Methods Of Discovery***
 
-* Discovering a planet by **transit** means that it passed directly between it's star and the observer - this is Kepler's purpose-built specialty.
+* Discovering a planet by **transit** means that it passed directly between it's star and the observer - this was Kepler/K2's purpose-built specialty.
 * **Radial velocity** was the method by which the first exoplanet was discovered; when a star has a planet orbiting it, that planet will very slightly "tug" the star in space throughout it's orbital course, causing the star itself to oscillate between moving closer and moving farther from us - this in turn shifts the redness/blueness of the star as we see it, indicating the presence of planets.
-* Technically, there are eleven methods of exoplanet discovery that appear in scientific literature, although there are really two primary methods.
+* The launch of Kepler has had a huge impact on our rate and process of discovering exoplanets! Let's see how all the discovery methods compare against each other other over time. Again, Kepler's launch is denoted by the vertical black line.
 
-![Count of all exoplanet discovery methods](images/discoveries_wb.png)
-
-#### - ***Changes In How We Seek***
-
-The launch of Kepler has had a huge impact on our rate and process of discovering exoplanets! Let's see how all the discovery methods compare against each other other over time. Again, Kepler's launch is denoted by the vertical black line.
-
-
-![Count of all exoplanet discovery methods](images/discoveries_over_time_by_method_keple_wb.png)
+![Count of all exoplanet discovery methods](images/discoveries_over_time_by_method.png)
 
 ***
 
@@ -74,25 +67,25 @@ To date, we have confirmed the discovery of 4,434 exoplanets, with thousands mor
 #### - ***Where Are All These Other Rocks?***
 
 * **Right Ascension** is an ancient astronomical measure that indicates a celestial object's angular distance, eastward, along the celesial equator from the Sun at the Spring Equinox. It is usually given in terms of hours:minutes:seconds, but here I have converted it to radian degrees. You can think of it as the x-coordinate in a spherical space.
-* **Declination** is also an ancient astronomical measure that indicates a celestial object's angular distance north or south of the celestrial equator. 
+* **Declination** is also an ancient astronomical measure that indicates a celestial object's angular distance north or south of the celestial equator. 
 * The large cluster of points in the upper left quadrant is a constellation known as Cygnus (The Swan), and is directly aligned with the plane of the Milky Way.
 * The faint horizontal S-shape discernible from roughly -30 to +30 degrees is known as the *plane of the ecliptic* and is where we find the zodiacal constellations.
 
-![Galactic Placement of Exoplanet Systems](images/exos_in_space_wb.png)
+![Galactic Placement of Exoplanet Systems](images/exos_in_space.png)
 
 #### - ***Comparison Of Basic Planetary Metrics***
 
 In the following three scatterplots, Earth is represented by a teal dot.
 
-![Mass v radius](images/mass_v_size_wb.png)
+![Mass v radius](images/rocky_mass_v_rad_scatter.png)
 
 * There is a strong correlation between mass and radius (I was not expecting this!).
 
-![Mass v temperature](images/mass_v_temp_wb.png)
+![Mass v temperature](images/rocky_mass_v_temp_scatter.png)
 
 * There is no significant correlation between mass and temperature.
 
-![Temperature v size](images/size_v_temp_wb.png)
+![Temperature v size](images/rocky_rad_v_temp_scatter.png)
 
 * Likewise, there is no significant correlation between radius and temperature.
 
@@ -111,7 +104,7 @@ In the following three scatterplots, Earth is represented by a teal dot.
 * Here, the x-axis is in **degrees Kelvin**; Earth's equilibrium temperature is 288K.
 * Lower, upper bounds of 95% CI: (828.01 K, 859.03 K)
 
-![95% CI of Exo Masses](images/radius_95ci.png)
+![95% CI of Exo Masses](images/size_95ci.png)
 
 * Here, the x-axis is in **Earth radii**; Earth's radius is such units is 1.
 * Lower, upper bounds of 95% CI: (1.96 ER, 2.05 ER)
@@ -120,29 +113,61 @@ In the following three scatterplots, Earth is represented by a teal dot.
 
 ...but I do want to highlight how lucky we are to live here.
 
-![Masses vs. Temperatures, with Water added](images/mass_v_temp_with_watermarks_wb.png)
+![Masses vs. Temperatures, with Water added](images/rocky_mass_v_temp_scatter_watermarks.png)
 
 * This is the same chart as seen earlier, comparing the masses of exoplanets to their temperatures.
-* However, I have highlighted the temperature region in which liquid water can exist, and immediately we can see how few planets in our already-limited view fulfill this vital criterion for life as we know it!
+* Now, I have highlighted the temperature region in which liquid water can exist.
+* There are 112 planets (including the Earth!) out of the 4,442 (this dataset plus our solar system) that are both small enough to be rocky, and are in the temperature range for to support water-based chemistry.
+* That is a mere **2.5%** of planets discovered so far!
+
+***
+
+***
+#### Going Beyond
+
+* Wait for more data to mine!
+* Clean-up and embellish charts
+* Expand and diversify functionality
+* Explore the mathematical relationship between planetary mass and planetary radius
+* Analyze the 111 planets noted above in **much** greater detail - which one is the best choice for a Voyager-like spacecraft to be sent?
+* Can this data shed any light on the mysteries invoked by the <a href="https://exoplanets.nasa.gov/news/1350/are-we-alone-in-the-universe-revisiting-the-drake-equation/" target="_blank">Drake Equation?</a>
+
+![Drake Equation](images/drake.jpg)
+
+## Thank you. Live long and prosper. Queries?
 
 ![Earthrise](images/earthrise.jpg)
 
 ***
 
-***
-### Bonus Material!
+### Bonus Material
 
-#### - ***'Runner Up' Methods Of Discovery***
+#### Counts of Exoplanet Discoveries by Method, All:
 
-Given that 3,349 exoplanets have been discovered by Transit, and a further 870 discovered by Radial Velocity, let's remove these extremes and see how the rest of the data compares. 
-* With the dominance of Kepler's methods, it seems unlikely that these styles of discovery will be seriously developed in the future.
-* Fascinatingly, the combined counts of all discoveries represented by the above chart represent less than 5% of all exoplanet discoveries. 
+![Count of all exoplanet discovery methods](images/discovery_methods_count.png)
 
-![Count of all exoplanet discovery methods without transit or radial velocity](images/discoveries_without_mains_wb.png)
+#### Counts of Exoplanet Discoveries by Method, Excluding Top Two
 
-#### - ***Solar Systems Like Ours, Tattooines, And Places Even Weirder***
+![Count of minor exoplanet discovery methods](images/discovery_methods_count_without_mains.png)
 
-![star_counts](images/num_stars_in_system.png)
-***
+#### TatONEines, TaTWOines, and TatTHREEines:
+
+![Num stars in exoplanet systems](images/num_stars_in_system.png)
+
+#### The Number Of Planets In Discovered Systems:
+
+![Num planets in exoplanet systems](images/num_planets_in_system.png)
+
+#### 80% Confidence Interval of Exoplanet Orbital Periods (aka "Years"):
+
+![exo years](images/year_80ci.png)
+* x-axis is in Earth days
+
+#### 87% Confidence Interval of Exoplanet Orbital Eccentricities:
+
+![exo eccen](images/eccen_87ci.png)
+
+
+
 
 
