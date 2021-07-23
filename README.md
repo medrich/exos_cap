@@ -110,7 +110,7 @@ In the following three scatterplots, Earth is represented by a teal dot.
 * Here, the x-axis is in **Earth radii**; Earth's radius is such units is 1.
 * Lower, upper bounds of 95% CI: (1.96 ER, 2.05 ER)
 
-**Considering how far away Earth's metrics are from the true population means in each case, I saw no need to use p-values or graphics to underline this point:** ***Earth is very special, and quite unique amongst rocky planets!***
+**Considering how far away Earth's metrics are from the true population means in each case, I saw no need to use p-values or graphics to underline this point:** ***We reject the null hypothesis in each case! Earth is very special, and quite unique amongst rocky planets.***
 
 ...but I do want to highlight how lucky we are to live here.
 
